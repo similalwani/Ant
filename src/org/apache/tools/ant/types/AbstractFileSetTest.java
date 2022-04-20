@@ -50,12 +50,13 @@ public abstract class AbstractFileSetTest extends TestCase {
     protected final Project getProject() {
         return project;
     }
-    // TODO: The literal "dummyref" is used multiple times and should be declared as a static value making the code readable.
+
     public final void testEmptyElementIfIsReference() {
+        final String DUMMYREF = "dummyref";
         AbstractFileSet f = getInstance();
         f.setIncludes("**/*.java");
         try {
-            f.setRefid(new Reference(getProject(), "dummyref"));
+            f.setRefid(new Reference(getProject(), DUMMYREF));
             fail("Can add reference to "
                  + f.getDataTypeName()
                  + " with elements from setIncludes");
@@ -67,7 +68,7 @@ public abstract class AbstractFileSetTest extends TestCase {
         f = getInstance();
         f.createPatternSet();
         try {
-            f.setRefid(new Reference(getProject(), "dummyref"));
+            f.setRefid(new Reference(getProject(), DUMMYREF));
             fail("Can add reference to "
                  + f.getDataTypeName()
                  + " with nested patternset element.");
@@ -79,7 +80,7 @@ public abstract class AbstractFileSetTest extends TestCase {
         f = getInstance();
         f.createInclude();
         try {
-            f.setRefid(new Reference(getProject(), "dummyref"));
+            f.setRefid(new Reference(getProject(), DUMMYREF));
             fail("Can add reference to "
                  + f.getDataTypeName()
                  + " with nested include element.");
@@ -89,7 +90,7 @@ public abstract class AbstractFileSetTest extends TestCase {
         }
 
         f = getInstance();
-        f.setRefid(new Reference(getProject(), "dummyref"));
+        f.setRefid(new Reference(getProject(), DUMMYREF));
         try {
             f.setIncludes("**/*.java");
             fail("Can set includes in "
