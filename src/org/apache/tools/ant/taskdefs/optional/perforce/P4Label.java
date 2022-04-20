@@ -78,6 +78,7 @@ public class P4Label extends P4Base {
      * do the work
      * @throws BuildException if failonerror has been set to true and Perforce fails
      */
+    //TODO: We need to get rid of the unconditional if statement as it is always true.
     public void execute() throws BuildException {
         log("P4Label exec:", Project.MSG_INFO);
 
