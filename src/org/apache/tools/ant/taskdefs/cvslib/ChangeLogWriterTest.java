@@ -64,7 +64,7 @@ public class ChangeLogWriterTest extends TestCase {
 
         public void startDocument() throws SAXException {
         }
-
+        // TODO: We need to get rid of the unused local variable as it wastes memory.
         public void characters(char ch[], int start, int length) throws SAXException {
             String debug = new String(ch, start, length);
         }
