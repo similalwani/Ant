@@ -50,7 +50,7 @@ public abstract class AbstractFileSetTest extends TestCase {
     protected final Project getProject() {
         return project;
     }
-
+    // TODO: The literal "dummyref" is used multiple times and should be declared as a static value making the code readable.
     public final void testEmptyElementIfIsReference() {
         AbstractFileSet f = getInstance();
         f.setIncludes("**/*.java");
