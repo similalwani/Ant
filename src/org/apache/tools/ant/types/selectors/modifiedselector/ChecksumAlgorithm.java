@@ -113,6 +113,7 @@ public class ChecksumAlgorithm implements Algorithm {
      * @param file    File object for which the value should be evaluated.
      * @return        The value for that file
      */
+    // TODO: We need to get rid of the empty while statement as it has no functionality.
     public String getValue(File file) {
         initChecksum();
         String rval = null;
