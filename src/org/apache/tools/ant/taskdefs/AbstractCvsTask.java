@@ -259,6 +259,7 @@ public abstract class AbstractCvsTask extends Task {
      * @param toExecute the command line to execute
      * @throws BuildException if failonError is set to true and the cvs command fails
      */
+    //TODO: Get rid of the String.valueOf() function the value is being appended to a string.
     protected void runCommand(Commandline toExecute) throws BuildException {
         // XXX: we should use JCVS (www.ice.com/JCVS) instead of
         // command line execution so that we don't rely on having
