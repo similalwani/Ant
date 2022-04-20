@@ -465,6 +465,7 @@ public abstract class AbstractFileSet extends DataType
      * @param p the Project against which the DirectoryScanner should be configured.
      * @return a <code>DirectoryScanner</code> instance.
      */
+    //FIXME: Object comparison need to be done by means of the equals() method.
     public DirectoryScanner getDirectoryScanner(Project p) {
         if (isReference()) {
             return getRef(p).getDirectoryScanner(p);
