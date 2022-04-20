@@ -465,7 +465,7 @@ public abstract class AbstractFileSet extends DataType
      * @param p the Project against which the DirectoryScanner should be configured.
      * @return a <code>DirectoryScanner</code> instance.
      */
-    //FIXME: Object comparison need to be done by means of the equals() method.
+
     public DirectoryScanner getDirectoryScanner(Project p) {
         if (isReference()) {
             return getRef(p).getDirectoryScanner(p);
@@ -473,7 +473,7 @@ public abstract class AbstractFileSet extends DataType
         dieOnCircularReference();
         DirectoryScanner ds = null;
         synchronized (this) {
-            if (directoryScanner != null && p == getProject()) {
+            if (directoryScanner != null && p.equals( getProject())) {
                 ds = directoryScanner;
             } else {
                 if (dir == null) {
@@ -494,7 +494,7 @@ public abstract class AbstractFileSet extends DataType
                 ds.setFollowSymlinks(followSymlinks);
                 ds.setErrorOnMissingDir(errorOnMissingDir);
                 ds.setMaxLevelsOfSymlinks(maxLevelsOfSymlinks);
-                directoryScanner = (p == getProject()) ? ds : directoryScanner;
+                directoryScanner = (p.equals( getProject())) ? ds : directoryScanner;
             }
         }
         ds.scan();
