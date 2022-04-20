@@ -153,7 +153,7 @@ public class P4Label extends P4Base {
 
 
                         line = "Options: " + lock;
-                    
+
 
                     labelSpec.append(line + "\n");
                 }
