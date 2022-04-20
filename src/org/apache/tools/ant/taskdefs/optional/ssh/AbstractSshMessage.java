@@ -83,11 +83,9 @@ public abstract class AbstractSshMessage {
      * @return the channel
      * @throws JSchException on error
      */
-    //TODO: Need to remove the local value before returning as this wastes memory
+    
     protected ChannelSftp openSftpChannel() throws JSchException {
-        ChannelSftp channel = (ChannelSftp) session.openChannel("sftp");
-
-        return channel;
+        return (ChannelSftp) session.openChannel("sftp");
     }
 
     /**
