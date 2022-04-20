@@ -653,6 +653,7 @@ public class Execute {
      * Patch the current environment with the new values from the user.
      * @return the patched environment.
      */
+    //TODO: We need to use equalsIgnoreCase() instead of lowercase() for comparison.
     private String[] patchEnvironment() {
         // On OpenVMS Runtime#exec() doesn't support the environment array,
         // so we only return the new values which then will be set in
