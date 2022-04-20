@@ -124,7 +124,7 @@ public class ChecksumAlgorithm implements Algorithm {
                  FileInputStream fis = new FileInputStream(file);
                  CheckedInputStream check = new CheckedInputStream(fis, checksum);
                  BufferedInputStream in = new BufferedInputStream(check);
-                 
+
                  rval = Long.toString(check.getChecksum().getValue());
                  in.close();
             }
