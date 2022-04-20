@@ -654,7 +654,7 @@ public class Execute {
      * Patch the current environment with the new values from the user.
      * @return the patched environment.
      */
-    //TODO: We need to use equalsIgnoreCase() instead of lowercase() for comparison.
+
     private String[] patchEnvironment() {
         // On OpenVMS Runtime#exec() doesn't support the environment array,
         // so we only return the new values which then will be set in
@@ -677,7 +677,7 @@ public class Execute {
                 for (Iterator it = osEnv.keySet().iterator(); it.hasNext(); ) {
                     String osEnvItem = (String) it.next();
                     // Nb: using default locale as key is a env name
-                    if (osEnvItem.toLowerCase().equals(key.toLowerCase())) {
+                    if (osEnvItem.equalsIgnoreCase(key)) {
                         // Use the original casiness of the key
                         key = osEnvItem;
                         break;
