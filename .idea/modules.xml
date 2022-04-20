@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Ant.iml" filepath="$PROJECT_DIR$/.idea/Ant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant/ant.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant/ant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant/ant (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant/ant (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-antlr/ant-antlr.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-antlr/ant-antlr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-antlr/ant-antlr (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-antlr/ant-antlr (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-apache-bcel/ant-apache-bcel.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-apache-bcel/ant-apache-bcel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-apache-bcel/ant-apache-bcel (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-apache-bcel/ant-apache-bcel (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-apache-bsf/ant-apache-bsf.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-apache-bsf/ant-apache-bsf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-apache-bsf/ant-apache-bsf (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-apache-bsf/ant-apache-bsf (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-apache-log4j/ant-apache-log4j.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-apache-log4j/ant-apache-log4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-apache-log4j/ant-apache-log4j (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-apache-log4j/ant-apache-log4j (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-apache-oro/ant-apache-oro.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-apache-oro/ant-apache-oro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-apache-oro/ant-apache-oro (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-apache-oro/ant-apache-oro (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-apache-regexp/ant-apache-regexp.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-apache-regexp/ant-apache-regexp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-apache-regexp/ant-apache-regexp (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-apache-regexp/ant-apache-regexp (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-apache-resolver/ant-apache-resolver.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-apache-resolver/ant-apache-resolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-apache-resolver/ant-apache-resolver (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-apache-resolver/ant-apache-resolver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-apache-xalan2/ant-apache-xalan2.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-apache-xalan2/ant-apache-xalan2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-apache-xalan2/ant-apache-xalan2 (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-apache-xalan2/ant-apache-xalan2 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-commons-logging/ant-commons-logging.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-commons-logging/ant-commons-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-commons-logging/ant-commons-logging (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-commons-logging/ant-commons-logging (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-commons-net/ant-commons-net.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-commons-net/ant-commons-net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-commons-net/ant-commons-net (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-commons-net/ant-commons-net (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-jai/ant-jai.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-jai/ant-jai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-jai/ant-jai (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-jai/ant-jai (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-javamail/ant-javamail.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-javamail/ant-javamail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-javamail/ant-javamail (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-javamail/ant-javamail (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-jdepend/ant-jdepend.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-jdepend/ant-jdepend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-jdepend/ant-jdepend (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-jdepend/ant-jdepend (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-jmf/ant-jmf.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-jmf/ant-jmf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-jmf/ant-jmf (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-jmf/ant-jmf (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-jsch/ant-jsch.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-jsch/ant-jsch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-jsch/ant-jsch (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-jsch/ant-jsch (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-junit/ant-junit.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-junit/ant-junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-junit/ant-junit (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-junit/ant-junit (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-junit4/ant-junit4.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-junit4/ant-junit4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-junit4/ant-junit4 (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-junit4/ant-junit4 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-launcher/ant-launcher.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-launcher/ant-launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-launcher/ant-launcher (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-launcher/ant-launcher (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-netrexx/ant-netrexx.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-netrexx/ant-netrexx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-netrexx/ant-netrexx (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-netrexx/ant-netrexx (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-parent.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-parent (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-parent (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-swing/ant-swing.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-swing/ant-swing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-swing/ant-swing (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-swing/ant-swing (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/etc/poms/ant-testutil/ant-testutil.iml" filepath="$PROJECT_DIR$/bin/etc/poms/ant-testutil/ant-testutil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/etc/poms/ant-testutil/ant-testutil (1).iml" filepath="$PROJECT_DIR$/src/etc/poms/ant-testutil/ant-testutil (1).iml" />
+    </modules>
+  </component>
+</project>
