@@ -155,7 +155,7 @@ public class Execute {
      * @return a map containing the environment variables.
      * @since Ant 1.8.2
      */
-    //TODO: We have to get rid of the empty if() statement.
+
     public static synchronized Map/*<String,String>*/ getEnvironmentVariables() {
         if (procEnvironment != null) {
             return procEnvironment;
@@ -180,9 +180,7 @@ public class Execute {
             // Make sure we do not recurse forever
             exe.setNewenvironment(true);
             int retval = exe.execute();
-            if (retval != 0) {
-                // Just try to use what we got
-            }
+            
             BufferedReader in =
                 new BufferedReader(new StringReader(toString(out)));
 
