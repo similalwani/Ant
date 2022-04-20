@@ -259,7 +259,7 @@ public abstract class AbstractCvsTask extends Task {
      * @param toExecute the command line to execute
      * @throws BuildException if failonError is set to true and the cvs command fails
      */
-    //TODO: Get rid of the String.valueOf() function the value is being appended to a string.
+
     protected void runCommand(Commandline toExecute) throws BuildException {
         // XXX: we should use JCVS (www.ice.com/JCVS) instead of
         // command line execution so that we don't rely on having
@@ -306,14 +306,14 @@ public abstract class AbstractCvsTask extends Task {
                 var.setKey("CVS_PASSFILE");
                 var.setValue(String.valueOf(passFile));
                 env.addVariable(var);
-                log("Using cvs passfile: " + String.valueOf(passFile),
+                log("Using cvs passfile: " + passFile,
                     Project.MSG_VERBOSE);
             } else if (!passFile.canRead()) {
-                log("cvs passfile: " + String.valueOf(passFile)
+                log("cvs passfile: " + passFile
                     + " ignored as it is not readable",
                     Project.MSG_WARN);
             } else {
-                log("cvs passfile: " + String.valueOf(passFile)
+                log("cvs passfile: " + passFile
                     + " ignored as it is not a file",
                     Project.MSG_WARN);
             }

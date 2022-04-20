@@ -83,7 +83,7 @@ public abstract class AbstractSshMessage {
      * @return the channel
      * @throws JSchException on error
      */
-    
+
     protected ChannelSftp openSftpChannel() throws JSchException {
         return (ChannelSftp) session.openChannel("sftp");
     }
